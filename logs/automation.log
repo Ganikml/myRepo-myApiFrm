@@ -71,3 +71,15 @@
 15:13:19.467 [main] INFO  api.test.UserTest - ******** User updated **********
 15:13:19.470 [main] INFO  api.test.UserTest - ******** Deleting user information **********
 15:13:20.733 [main] INFO  api.test.UserTest - ******** user information deleted **********
+15:15:26.392 [main] INFO  api.test.UserTest - ******** Create user **********
+15:15:28.296 [main] INFO  api.test.UserTest - ******** Reading user information **********
+15:15:28.331 [main] INFO  api.test.UserTest - ******** Updating user information **********
+15:15:28.356 [main] INFO  api.test.UserTest - ******** Deleting user information **********
+15:19:37.517 [main] INFO  api.test.UserTest - ******** Create user **********
+15:19:40.844 [main] INFO  api.test.UserTest - ********user created **********
+15:19:40.856 [main] INFO  api.test.UserTest - ******** Reading user information **********
+15:19:42.047 [main] INFO  api.test.UserTest - ******** User information is displayed **********
+15:19:42.050 [main] INFO  api.test.UserTest - ******** Updating user information **********
+15:19:45.006 [main] INFO  api.test.UserTest - ******** User updated **********
+15:19:45.009 [main] INFO  api.test.UserTest - ******** Deleting user information **********
+15:19:46.156 [main] INFO  api.test.UserTest - ******** user information deleted **********
