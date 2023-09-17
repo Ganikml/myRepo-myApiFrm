@@ -1,11 +1,19 @@
 package api.utilities;
 
 import java.io.IOException;
-
 import org.testng.annotations.DataProvider;
 
+/**
+ * Data Provder utility class
+ */
 public class DataProviders {
 
+	/**
+	 * Data provider for get all rows of data from excel
+	 * 
+	 * @return
+	 * @throws IOException
+	 */
 	@DataProvider(name = "DataUsers")
 	public String[][] getAllData() throws IOException {
 		String path = System.getProperty("user.dir") + "//testData//userData.xlsx";
@@ -25,10 +33,15 @@ public class DataProviders {
 		return apiData;
 
 	}
-	
+
+	/**
+	 * Data provider for get single row data
+	 * 
+	 * @return
+	 * @throws IOException
+	 */
 	@DataProvider(name = "UserNames")
-	public String[] getUserNames() throws IOException
-	{
+	public String[] getUserNames() throws IOException {
 		String path = System.getProperty("user.dir") + "//testData////userData.xlsx";
 		XlUtility xl = new XlUtility(path);
 

@@ -2,14 +2,15 @@ package api.endpoints;
 
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
-import static io.restassured.matcher.RestAssuredMatchers.*;
 import static io.restassured.RestAssured.*;
-import static org.hamcrest.Matchers.*;
 
 import java.util.ResourceBundle;
 
 import api.payload.UsersPayload;
 
+/*
+ * Disblaed End points
+ */
 public class UserEndPoints2 {
 
 	static ResourceBundle getUrl() {
